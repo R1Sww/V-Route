@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+*.spec.bak
+
+# Built binary (published via GitHub Releases)
+V-Route.exe
+
+# Dev artifacts (old internals folder, probes, logs, screenshots)
+ВНУТРЕННОСТИ/
+probe_*.py
+*.log
+
+# Tooling
+.opencode/
+node_modules/
+
+# OS
+Thumbs.db
+Desktop.ini
